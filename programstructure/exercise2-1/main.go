@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	var c tempconv.Celcius = 126.85
-	var f tempconv.Fahrenheight = 32.0
+	var c tempconv.Celsius = 126.85
+	var f tempconv.Fahrenheit = 32.0
 	var k tempconv.Kelvin = 300.0
 	fmt.Println("Temp:\t", tempconv.CToK(c))
 	fmt.Println("Temp:\t", tempconv.FToC(f))
